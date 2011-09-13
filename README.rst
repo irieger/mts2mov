@@ -4,6 +4,8 @@ mts2mov - Mac AVCHD cutters friend
 
 mts2mov is a little helper script for converting MTS-files from AVCHD-cameras to mov containers. After this the footage can easily be imported with Final Cut.
 
+**DISCLAIMER:** In the current state the script is a bit ugly and a kind of hacked, but it works perfectly for me. But I can't quarante that this script works for in all cases and that it doesn't damage everything.
+
 Installation
 ------------
 You need ffmpeg installed and usable via Terminal - it have to be in your PATH.
