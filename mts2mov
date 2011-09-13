@@ -1,0 +1,17 @@
+#!/bin/sh
+
+PYTHON="/usr/bin/python"
+
+if [ -x "/usr/bin/python2" ]; then
+    PYTHON=""/usr/bin/python2""
+fi
+
+#!/bin/sh
+PRG="$0"
+
+# need this for relative symlinks
+while [ -h "$PRG" ] ; do
+   PRG=`readlink "$PRG"`
+done
+
+$PYTHON "`dirname "$PRG"`/mts2mov.py" $@
