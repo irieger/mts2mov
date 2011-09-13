@@ -63,7 +63,7 @@ def exec_cmd(cmd):
 def parse_args():
     global options, args
 
-    parser = OptionParser(usage="%prog [-f] [-q]", version="%prog 0.1")
+    parser = OptionParser(usage="%prog -i INPUT_FOLDER -o OUTPUT_FOLDER", version="%prog 0.1")
     
     # directory options
     parser.add_option("-i", "--input", dest="input_folder", help="AVCHD-Folder")
